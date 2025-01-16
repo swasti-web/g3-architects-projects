@@ -1,0 +1,7 @@
+/* header Start */
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links {
+        flex-direction: column;
+    }
+}
+/* header end */
