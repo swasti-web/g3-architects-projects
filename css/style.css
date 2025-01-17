@@ -178,3 +178,26 @@
         color: #727272;
     }
     /* fact end */
+    /* sponsor start */
+    .sponsors{}
+    .sponsor-info{
+        max-width: 542px;
+        margin: 0 auto;
+    }
+    .sponsors-text{
+        margin: 25px 0;
+    }
+    .sponsors-logo{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 30px;
+    }
+    .sponsors-logo img{
+        filter: grayscale(100%);
+        cursor: pointer;
+        transition: .33s linear all;
+    }
+    .sponsors-logo img:hover{
+        filter: grayscale(0%);
+    }
+    /* sponsor end */

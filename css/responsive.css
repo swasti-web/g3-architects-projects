@@ -2,18 +2,24 @@
 @media screen and (max-width: 576px) {
     .navbar, 
     .nav-links, 
-    .feature{
+    .feature
+    {
         flex-direction: column;
     }
     .feature-image-container,
-    .fact-cards{
+    .fact-cards,
+    .sponsors-logo
+    {
         grid-template-columns: repeat(1, 1fr);
     }
-    .fact-cards{
+    .fact-cards,
+    .sponsors-logo
+    {
         justify-items: center;
         gap: 25px;
     }
-    .fact-card{
+    .fact-card
+    {
         margin-top: 0;
     }
     /*  */
@@ -26,5 +32,12 @@
     .feature-content{
         margin-left: 0;
         margin-top: 30px;
+    }
+    .sponsors-logo,
+    .fact-cards
+    {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        justify-items: center;
     }
 }
