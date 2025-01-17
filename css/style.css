@@ -139,6 +139,59 @@
         line-height: 26px;
         font-weight: 400;
     }
+    /* experience start */
+    .experience-container{
+        gap: 140px;
+    }
+    .experience-container>div{
+        padding: 50px 0;
+    }
+    .experience-title{
+        max-width: 468px;
+        border-left: 5px solid #ff9000;
+        padding-left: 21px;
+        margin-bottom: 24px;
+    }
+    .experience-text{
+        max-width: 588px;
+        font-size: 1rem;
+        line-height: 26px;
+        font-weight: 400;
+    }
+    .experience-card{
+        max-width: 586px;
+        box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+        border-radius: 8px;
+        padding: 30px;
+        margin-top: 20px;
+    }
+    .experience-card-title{
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+    .experience-card-text{
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    #ex-badge{
+        margin-left: -100px;
+        margin-top: -100px;
+    }
+    .ex-btn{
+        max-width: 258px;
+        padding: 23px 21px;
+
+    }
+    #year{
+        font-size: 4.06rem;
+        font-weight: 700;
+    }
+    #ex{
+        font-size: 1.56rem;
+        font-weight: 500;
+    }
+    /* experience end */
     /* fact start */
     .fact-text{
         max-width: 542px;
