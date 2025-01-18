@@ -79,7 +79,6 @@
         font-size: 2.8rem;
         font-weight: 700;
     }
-    .nav-links{}
     .nav-links .nav-item{
         margin-right: 60px;
     }
@@ -176,12 +175,11 @@
     }
     #ex-badge{
         margin-left: -100px;
-        margin-top: -100px;
+        margin-top: -115px;
+        padding: 45px 42px;
     }
     .ex-btn{
         max-width: 258px;
-        padding: 23px 21px;
-
     }
     #year{
         font-size: 4.06rem;
@@ -232,7 +230,6 @@
     }
     /* fact end */
     /* sponsor start */
-    .sponsors{}
     .sponsor-info{
         max-width: 542px;
         margin: 0 auto;

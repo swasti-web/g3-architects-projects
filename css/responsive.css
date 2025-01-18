@@ -2,9 +2,14 @@
 @media screen and (max-width: 576px) {
     .navbar, 
     .nav-links, 
-    .feature
+    .feature,
+    .experience-container
     {
         flex-direction: column;
+    }
+    #ex-badge{
+        margin-top: -105px;
+        margin-left: 105px;
     }
     .feature-image-container,
     .fact-cards,
